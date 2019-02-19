@@ -25,7 +25,7 @@ public class LinkedList {
 	}
 	private void print(Node input) {
 		if(input == null) return;
-		System.out.print(input.data + "-->");
+		System.out.print(input.data + "-->"); 
 		print(input.next);
 	}
 	
